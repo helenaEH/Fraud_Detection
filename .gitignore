@@ -1,0 +1,11 @@
+.idea/
+.ipynb_checkpoints/
+
+etc/
+Scripts/
+Lib/
+share/
+xgboost/
+__pycache__/
+
+*.csv
