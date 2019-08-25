@@ -33,7 +33,7 @@ In anomaly detection the class imbalance is a typical problem. Use Synthetic Min
 
 Some features (e.g. Transaction Amount, TransactionDT) are on a different scale than other binary variables. Normalize by scaling
 
-## Part4: Models and outcomes 
+## Part 4: Models and outcomes 
 I tested 5 different models to compare their performance: 
 * Logistic Regression 
 * Linear Discriminant analysis 
@@ -53,7 +53,7 @@ A few examples for illustration:
 ![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/confusion_matrix_Random%20Rorest.png)  
 
 &nbsp; 
-![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/roc_LightGB.png)  
+![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/roc_Random%20Rorest.png)  
 
 **LightGB**
 
