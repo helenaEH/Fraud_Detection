@@ -50,7 +50,7 @@ A few examples for illustration:
 **Random Forest**
 
 &nbsp; 
-![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/confusion_matrix_Random Rorest.png)  
+![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/confusion_matrix_Random%20Rorest.png)  
 
 &nbsp; 
 ![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/roc_LightGB.png)  
@@ -63,13 +63,15 @@ A few examples for illustration:
 &nbsp; 
 ![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/roc_LightGB.png)  
 
-**False Positive and False negative rate (the lower the better)**
+### False Positive and False negative rate (the lower the better)
+
 &nbsp; 
 ![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/Model_performance.png)  
 
-**Overall model performance**
+### Overall model performance
+
 &nbsp; 
-![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/model_outcome.png)  
+![](https://github.com/helenaEH/Fraud_Detection/blob/master/model_outcome.PNG)  
 
 
 
