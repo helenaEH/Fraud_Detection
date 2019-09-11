@@ -25,13 +25,13 @@ The data has missing values and categorical variables. To prepare the data for t
 * rest of the missing values fill with mean / mode depending on whether the variable is continuous or categorical
 
 ## Part 3. Train Test split, SMOTE, scaling
-Splitting the data into a train and test sets. 
+* Splitting the data into a train and test sets. 
 
-In anomaly detection the class imbalance is a typical problem. Use Synthetic Minority Oversampling Technique (SMOTE) to balance the classes by up-sampling the minority class. 
+* In anomaly detection the class imbalance is a typical problem. Use Synthetic Minority Oversampling Technique (SMOTE) to balance the classes by up-sampling the minority class. 
 &nbsp; 
 ![](https://github.com/helenaEH/Fraud_Detection/blob/master/plots/class_imbalance.png)  
 
-Some features (e.g. Transaction Amount, TransactionDT) are on a different scale than other binary variables. Normalize by scaling
+* Some features (e.g. Transaction Amount, TransactionDT) are on a larger scale than other variables, that will bias our model towards them. Normalize by scaling these features. 
 
 ## Part 4: Models and outcomes 
 I tested 5 different models to compare their performance: 
@@ -73,7 +73,7 @@ A few examples for illustration:
 &nbsp; 
 ![](https://github.com/helenaEH/Fraud_Detection/blob/master/model_outcome.PNG)  
 
-## End note. Future Improvements
+## Future Improvements
 
 * Ensemble modeling - combining different models with different weights (e.g. LightGB, Random Forest and XGBoost) to improve the overall accuracy 
 
