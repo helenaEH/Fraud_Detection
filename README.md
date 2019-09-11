@@ -1,9 +1,9 @@
 # Fraud Detection
 
-This is project about detecting fraudulent transactions. It is based on real company data is full of missing values and confidential features. This tutorial walks you through the process of building a data science project about fraud detection and the relevant things one should consider when dealing with a project of this kind. 
-The competition host doesn't allow to share the data externally but it can be accessed on Kaggle after accepting the competition rules: https://www.kaggle.com/c/ieee-fraud-detection/data
+This project is about detecting fraudulent transactions. The dataset is based on real company data and it is full of missing values and confidential/unknown features. This tutorial walks you through the process of building a data science project about fraud detection and the relevant things one should consider when dealing with anomaly detection problems in general. 
+The competition host doesn't allow to share the data externally but it can be accessed on Kaggle: https://www.kaggle.com/c/ieee-fraud-detection/data
 
-**Disclaimer: this project was built in a week and will not top the Kaggle leaderboard, however, it is a good example of a data project pipeline** 
+**Disclaimer: this project was built in a week and will not top the Kaggle leaderboard, however, it is a good example of a typical data project pipeline** 
 
 ## Part 1. Exploratory Data Analysis
 
@@ -20,7 +20,7 @@ The data has missing values and categorical variables. To prepare the data for t
 * Choose features that have less than 10% of missing data
 * Use different functions on Vxx confidential features (nunique, sum)
 * Factorize categorical features with 2 unique values
-* One-hot encode encode other categorical non-numeric features
+* One-hot encode other categorical non-numeric features
 * addr1, addr2 are numerical categorical features that have too many unique values to use one-hot encoding (we want to avoid having too high dimensionality), use mean target encoding instead
 * rest of the missing values fill with mean / mode depending on whether the variable is continuous or categorical
 
@@ -41,7 +41,7 @@ I tested 5 different models to compare their performance:
 * XGBoost 
 * LightGB
 
-The LightGB - a gradient boosting framework that uses tree-based learning algorithms performed the best. Of course we cannot expect to have good accuracy with the Logistic Regression. 
+The LightGB - a gradient boosting framework that uses tree-based learning algorithms performed the best. Simple Logistic Regression had the worst performance as expected. 
 
 About the problem: we are testing our data on unbalanced test set, we don't want to overfit it. We would expect most of the predictions be classified under True Negatives - most of the data is non-fraudulent. Our goal is to keep the False Positive (non-fraudulent transactions mistakenly classifyed as fraudulent) and False Negatives (fraudulent transactions that our algorithm classified as safe) as low as possible. 
 
