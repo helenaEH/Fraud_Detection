@@ -73,6 +73,11 @@ A few examples for illustration:
 &nbsp; 
 ![](https://github.com/helenaEH/Fraud_Detection/blob/master/model_outcome.PNG)  
 
+## End note. Future Improvements
+
+* Ensemble modeling - combining different models with different weights (e.g. LightGB, Random Forest and XGBoost) to improve the overall accuracy 
+
+
 
 
 
