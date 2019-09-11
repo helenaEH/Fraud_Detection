@@ -1,6 +1,6 @@
 # Fraud Detection
 
-This project is about detecting fraudulent transactions. The dataset is based on real company data and it is full of missing values and confidential/unknown features. This tutorial walks you through the process of building a data science project about fraud detection and the relevant things one should consider when dealing with anomaly detection problems in general. 
+This project is about detecting fraudulent transactions from online payment data. The dataset is based on real company data and it is full of missing values and confidential/unknown features. This tutorial walks you through the process of building a data science project about fraud detection and the relevant things one should consider when dealing with anomaly detection problems in general. 
 The competition host doesn't allow to share the data externally but it can be accessed on Kaggle: https://www.kaggle.com/c/ieee-fraud-detection/data
 
 **Disclaimer: this project was built in a week and will not top the Kaggle leaderboard, however, it is a good example of a typical data project pipeline** 
